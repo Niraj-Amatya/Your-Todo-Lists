@@ -291,9 +291,9 @@ todo List
   height: 1.5rem;
   display: grid;
   align-items: center;
-  background: transparent;
+  background: var(--clr-grey-1);
   border-color: transparent;
-  color: var(--clr-red-light);
+  color: var(--clr-white);
   margin: 0 auto;
   font-size: 0.85rem;
   letter-spacing: var(--spacing);
@@ -303,4 +303,15 @@ todo List
 }
 .clear-btn:hover {
   color: var(--clr-red-dark);
+}
+
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+  color: red;
+}
+
+.btn-style{
+  color: var(--clr-primary-1);
 }

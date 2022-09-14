@@ -9,10 +9,18 @@ const List = ({ items, removeItem, editList }) => {
           <article key={id} className="todo-item">
             <h4 className="title">{title}</h4>
             <div className="btn-container">
-              <button type="button" onClick={() => editList(id)}>
+              <button
+                type="button"
+                className="btn-style"
+                onClick={() => editList(id)}
+              >
                 <FaEdit />
               </button>
-              <button type="button" onClick={() => removeItem(id)}>
+              <button
+                type="button"
+                className="btn-style"
+                onClick={() => removeItem(id)}
+              >
                 <FaTrash />
               </button>
             </div>
