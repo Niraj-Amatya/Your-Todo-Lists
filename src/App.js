@@ -14,7 +14,6 @@ const getLocalStorage = () => {
 function App() {
   const [name, setName] = useState('');
   const [list, setList] = useState(getLocalStorage());
-  const [selectedOption, setSelectedOption] = useState(null);
 
   const [alert, setAlert] = useState({
     show: false,
